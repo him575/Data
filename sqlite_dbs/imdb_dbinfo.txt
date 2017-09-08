@@ -1,0 +1,11 @@
+imdb.db is a SQLite database which contains one table: movies
+
+movies contains the following columns:
+color text, director_name text, num_critic_for_reviews integer, duration integer,
+director_facebook_likes integer, actor_3_facebook_likes integer, actor_2_name text,
+actor_1_facebook_likes integer, gross integer, genres text, actor_1_name text,
+movie_title text, num_voted_users integer, cast_total_facebook_likes integer,
+actor_3_name text, facenumber_in_poster integer, plot_keywords text, movie_imdb_link text,
+num_user_for_reviews integer, language text, country text, content_rating text,
+budget integer, title_year integer, actor_2_facebook_likes integer, imdb_score real,
+aspect_ratio real, movie_facebook_likes integer
