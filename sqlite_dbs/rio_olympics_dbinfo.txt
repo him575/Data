@@ -1,0 +1,10 @@
+rio_olympics.db is a SQLite database has three tables: athletes, events, and countries
+
+athletes contains the following columns:
+id integer, name text, nationality text, sex text, dob text, height real, weight real, sport text, gold integer, silver integer, bronze integer
+
+events contains the following columns:
+id integer, sport text, discipline text, name text, sex text, venues text
+
+countries contains the following columns:
+country text, code text, population integer, gdp_per_capita real
